@@ -6,7 +6,7 @@ const personRoutes= require("./routes/personRoutes")
 const menuRoutes= require("./routes/menuRoutes")
 app.use(bodyParser.json())
 
-
+// add new request
 app.use(personRoutes)
 app.use(menuRoutes)
 app.listen(3000, () => {
